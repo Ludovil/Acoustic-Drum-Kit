@@ -68,8 +68,8 @@ h1 {
 .active_btn,
 .active_key {
   text-shadow: 0 0 5px var(--electric_blue), 0 0 8px var(--electric_blue);
-  border-right: 3px solid #222;
-  border-bottom: 3px solid #222;
+  border-right: 3px solid var(--black_border);
+  border-bottom: 3px solid var(--black_border);
 }
 
 .kick {
