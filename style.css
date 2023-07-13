@@ -1,0 +1,27 @@
+:root {
+  --black: #333;
+  --black_border: #222;
+  --white: #fff;
+  --electric_blue: #219cf3;
+  --linear_1: #555353;
+  --linear_2: #363535;
+  --liner_3: #303030;
+}
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  min-height: 100vh;
+  font-family: sans-serif;
+  background-color: var(--black);
+}
